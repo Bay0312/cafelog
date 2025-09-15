@@ -1,0 +1,29 @@
+# Go
+bin/
+out/
+coverage.out
+*.test
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Build/Artifacts
+dist/
+tmp/
+
+# Local data (segments, logs)
+data/
+*.log
+*.idx
+
+# Docker/Compose runtime
+*.pid
