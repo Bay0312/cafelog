@@ -35,7 +35,7 @@
 
 ```bash
 # Clonar y ejecutar stack completo
-git clone https://github.com/tu-usuario/cafelog.git
+git clone https://github.com/Bay0312/cafelog.git
 cd cafelog
 
 # Levantar CafeLog + Prometheus + Grafana
@@ -550,7 +550,7 @@ open http://localhost:3000/d/cafelog-overview
 
 ```bash
 # Fork y clonar
-git clone https://github.com/tu-usuario/cafelog.git
+git clone https://github.com/Bay0312/cafelog.git
 cd cafelog
 
 # Instalar dependencias
@@ -601,7 +601,7 @@ Proyecto open source bajo **MIT License**. Ver [LICENSE](LICENSE) para detalles 
 
 ## 🎯 **¿Listo para distribuir mensajes?**
 
-### **[🚀 Comenzar Ahora](https://github.com/tu-usuario/cafelog)**
+### **[🚀 Comenzar Ahora](https://github.com/Bay0312/cafelog)**
 
 ---
 
@@ -609,6 +609,6 @@ Proyecto open source bajo **MIT License**. Ver [LICENSE](LICENSE) para detalles 
 
 **Go • Message Queues • Observability • Cloud Native**
 
-[![⭐ Star en GitHub](https://img.shields.io/badge/⭐-Star_en_GitHub-yellow?style=for-the-badge)](https://github.com/tu-usuario/cafelog)
+[![⭐ Star en GitHub](https://img.shields.io/badge/⭐-Star_en_GitHub-yellow?style=for-the-badge)](https://github.com/Bay0312/cafelog)
 
 </div>
