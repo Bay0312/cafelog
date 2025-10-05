@@ -1,0 +1,38 @@
+{
+    "title": "CafeLog Overview",
+    "schemaVersion": 39,
+    "version": 1,
+    "timezone": "browser",
+    "panels": [
+        {
+            "type": "timeseries",
+            "title": "Requests by type (rate)",
+            "gridPos": {
+                "h": 8,
+                "w": 24,
+                "x": 0,
+                "y": 0
+            },
+            "targets": [
+                {
+                    "expr": "sum by (type) (rate(cafelog_requests_total[1m]))"
+                }
+            ]
+        },
+        {
+            "type": "stat",
+            "title": "Active TCP connections",
+            "gridPos": {
+                "h": 6,
+                "w": 8,
+                "x": 0,
+                "y": 8
+            },
+            "targets": [
+                {
+                    "expr": "cafelog_tcp_connections_current"
+                }
+            ]
+        }
+    ]
+}

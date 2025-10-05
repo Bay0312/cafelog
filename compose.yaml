@@ -2,8 +2,8 @@ services:
   broker:
     build: .
     ports:
-      - "8080:8080"   # http: /healthz, /metrics
-      - "7070:7070"   # tcp: frames
+      - "8080:8080" # http: /healthz, /metrics
+      - "7070:7070" # tcp: frames
     volumes:
       - ./data:/data
       - ./configs:/configs
@@ -23,3 +23,6 @@ services:
       - "3000:3000"
     depends_on:
       - prometheus
+    volumes:
+      - ./deploy/grafana/provisioning:/etc/grafana/provisioning
+      - ./deploy/grafana/dashboards:/var/lib/grafana/dashboards
